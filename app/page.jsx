@@ -1,7 +1,7 @@
 "use client";
-import Hero from "@/components/Hero";
-import Nav from "@/components/Nav";
-import Why from "@/components/Why";
+import Hero from "@/components/Hero.jsx";
+import Nav from "@/components/Nav.jsx";
+import Services from "@/components/Services.jsx";
 import React from "react";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       </section>
 
       <section id="services">
-        <Why />
+        <Services />
       </section>
     </div>
   );

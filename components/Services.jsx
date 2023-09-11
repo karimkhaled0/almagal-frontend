@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Why = () => {
+const Services = () => {
   return (
     <div className="mt-44 space-y-10 mb-44">
       {/* what we serve */}
@@ -72,4 +72,4 @@ const Why = () => {
   );
 };
 
-export default Why;
+export default Services;

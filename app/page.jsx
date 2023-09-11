@@ -1,7 +1,7 @@
 "use client";
 import Hero from "../components/Hero.jsx";
-import Nav from "@/components/Nav.jsx";
-import Services from "@/components/Services";
+import Nav from "../components/Nav.jsx";
+import Services from "../components/Services.jsx";
 
 export default function Home() {
   return (

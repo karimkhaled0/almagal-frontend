@@ -5,7 +5,7 @@ import Services from "../components/Services.jsx";
 
 export default function Home() {
   return (
-    <div className="space-y-32">
+    <div className="md:space-y-32 space-y-10">
       <Nav />
       <section id="home">
         <Hero />

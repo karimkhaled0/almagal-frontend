@@ -35,7 +35,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
-      <body className="font-cairo max-7xl mx-auto w-9/12">{children}</body>
+      <body className="font-cairo xl:max-w-5xl lg:max-w-4xl md:max-w-2xl mx-auto md:w-11/12">
+        {children}
+      </body>
     </html>
   );
 }

@@ -22,12 +22,12 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-between p-5">
+    <div className="flex items-center justify-between md:p-5 p-2">
       {/* Nav */}
-      <div className="flex items-center space-x-5">
+      <div className="flex items-center md:space-x-5 space-x-2">
         <Link href={"/#contact"} onClick={() => setActiveLink("/#contact")}>
           <h2
-            className={`font-medium text-lg ${
+            className={`font-medium lg:text-lg md:text-base text-[8px] ${
               activeLink === "/#contact" ? "text-[#F55253]" : ""
             }`}
           >
@@ -36,7 +36,7 @@ const Nav = () => {
         </Link>
         <Link href={"/#why"} onClick={() => setActiveLink("/#why")}>
           <h2
-            className={`font-medium text-lg ${
+            className={`font-medium lg:text-lg md:text-base text-[8px] ${
               activeLink === "/#why" ? "text-[#F55253]" : ""
             }`}
           >
@@ -45,7 +45,7 @@ const Nav = () => {
         </Link>
         <Link href={"/#services"} onClick={() => setActiveLink("/#services")}>
           <h2
-            className={`font-medium text-lg ${
+            className={`font-medium lg:text-lg md:text-base text-[8px] ${
               activeLink === "/#services" ? "text-[#F55253]" : ""
             }`}
           >
@@ -54,7 +54,7 @@ const Nav = () => {
         </Link>
         <Link href={"/#home"} onClick={() => setActiveLink("/#home")}>
           <h2
-            className={`font-medium text-lg ${
+            className={`font-medium lg:text-lg md:text-base text-[8px] ${
               activeLink === "/#home" || activeLink === "/"
                 ? "text-[#F55253]"
                 : ""
@@ -66,9 +66,9 @@ const Nav = () => {
       </div>
 
       {/* Logo */}
-      <div className="flex items-center space-x-5">
+      <div className="flex items-center lg:space-x-5 md:space-x-3 space-x-2 lg:w-[42px] md:w-[28px] w-[15px]">
         <Image src={"/logo.svg"} alt="logo" width={42} height={42} />
-        <h1 className="text-3xl font-bold">المجال</h1>
+        <h1 className="lg:text-2xl md:text-xl text-xs font-bold">المجال</h1>
       </div>
     </div>
   );

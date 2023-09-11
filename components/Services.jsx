@@ -4,27 +4,31 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="mt-44 space-y-10 mb-44">
+    <div className="md:mt-44 mt-20 lg:space-y-10 md:space-y-5 space-y-3 mb-44">
       {/* what we serve */}
-      <h1 className="text-[#F54748] text-lg font-medium text-center ">
+      <h1 className="text-[#F54748] lg:text-lg md:text-base text-xs font-medium text-center ">
         ماذا نقدم ؟
       </h1>
 
       {/* Header */}
-      <h1 className="font-bold text-4xl leading-normal text-[#2E2E2E] text-center ">
+      <h1 className="font-bold lg:text-4xl md:text-2xl text-base leading-normal text-[#2E2E2E] text-center ">
         مكافحة جميع انواع الحشرات والقوارض
       </h1>
 
       {/* Services */}
-      <div className="flex items-center justify-between max-w-6xl mx-auto relative">
+      <div className="flex md:flex-row flex-col md:space-y-0 space-y-5 md:w-full w-44 mx-auto items-center justify-between relative">
         {/* eco */}
-        <div className="w-[300px] space-y-10 text-center flex flex-col items-center justify-center">
+        <div className="lg:w-[300px] md:w-[200px] lg:space-y-10 md:space-y-5 space-y-2 text-center flex flex-col items-center justify-center z-10">
           {/* image */}
-          <Image src={"/eco.svg"} alt="eco Image" width={115} height={108} />
+          <div className="lg:w-[115px] md:w-[80px] w-[50px]">
+            <Image src={"/eco.svg"} alt="eco Image" width={115} height={108} />
+          </div>
           {/* head */}
-          <h2 className="font-bold text-xl">استخدام منتجات صديقة للبيئة</h2>
+          <h2 className="font-bold lg:text-xl md:text-base text-[10px]">
+            استخدام منتجات صديقة للبيئة
+          </h2>
           {/* body */}
-          <p className="text-sm font-normal text-[#676767]">
+          <p className="lg:text-sm md:text-xs text-[8px] font-normal text-[#676767]">
             تهتم شركة المجال لمكافحة الحشرات بالبيئة وتستخدم منتجات ومواد صديقة
             للبيئة في عملياتها
           </p>
@@ -35,34 +39,45 @@ const Services = () => {
           alt="eco Image"
           width={325}
           height={334}
-          className="absolute z-0 right-[401px] -top-[10px]"
+          className="absolute z-0 xl:w-[325px] lg:w-[315px] md:w-[180px] xl:right-[310px] xl:-top-[5px] lg:right-[240px] lg:-top-[5px] hidden xl:block"
         />
-
+        <div className="h-[0.5px] bg-[#F55253] w-full md:hidden" />
         {/* customer */}
-        <div className=" bg-white z-10 w-[300px] h-[311px] space-y-10 text-center flex flex-col items-center justify-center rounded-xl">
+        <div className=" bg-white z-10 lg:w-[300px] md:w-[200px] lg:h-[311px] lg:space-y-10 md:space-y-5 text-center flex flex-col items-center justify-center rounded-xl">
           {/* image */}
-          <Image
-            src={"/customer.svg"}
-            alt="eco Image"
-            width={115}
-            height={108}
-          />
+          <div className="lg:w-[115px] md:w-[80px] w-[50px]">
+            <Image
+              src={"/customer.svg"}
+              alt="eco Image"
+              width={115}
+              height={108}
+            />
+          </div>
           {/* head */}
-          <h2 className="font-bold text-xl">خدمة العملاء الممتازة</h2>
+          <h2 className="font-bold lg:text-xl md:text-base text-[10px]">
+            خدمة العملاء الممتازة
+          </h2>
           {/* body */}
-          <p className="text-sm font-normal text-[#676767]">
+          <p className="lg:text-sm md:text-xs text-[8px] font-normal text-[#676767]">
             تسعى شركة المجال لمكافحة الحشرات دائمًا لتقديم خدمة عملاء استثنائية،
             والاستماع إلى احتياجات العملاء والرد على استفساراتهم بفعالية.{" "}
           </p>
         </div>
+
+        <div className="h-[0.5px] bg-[#F55253] w-full md:hidden" />
+
         {/* new */}
-        <div className="w-[300px] space-y-10 text-center flex flex-col items-center justify-center">
+        <div className="lg:w-[250px] md:w-[200px] lg:space-y-10 md:space-y-5 space-y-2 text-center flex flex-col items-center justify-center z-10">
           {/* image */}
-          <Image src={"/new.svg"} alt="eco Image" width={115} height={108} />
+          <div className="lg:w-[115px] md:w-[80px] w-[50px]">
+            <Image src={"/new.svg"} alt="eco Image" width={115} height={108} />
+          </div>
           {/* head */}
-          <h2 className="font-bold text-xl">استخدام تقنيات حديثة</h2>
+          <h2 className="font-bold lg:text-xl md:text-base text-[10px]">
+            استخدام تقنيات حديثة
+          </h2>
           {/* body */}
-          <p className="text-sm font-normal text-[#676767]">
+          <p className="lg:text-sm md:text-xs text-[8px] font-normal text-[#676767]">
             تستخدم شركة المجال لمكافحة الحشرات تقنيات متقدمة ومعدات حديثة في
             عمليات مكافحة الحشرات، مما يزيد من فعالية العمليات.
           </p>

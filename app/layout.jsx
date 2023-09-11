@@ -8,10 +8,11 @@ export const metadata = {
     icon: "/favicon.ico",
   },
   alternates: {
-    canonical: "https://www.almajal-ksa.com/",
+    canonical: "https://www.al-magal.com",
   },
   verification: {
-    google: "google-site-verification=3123123221",
+    google:
+      "google-site-verification=V_6f0mZH0h9M2UblASILkDNAlnfFR12FBzhhXCN5dks",
   },
 };
 

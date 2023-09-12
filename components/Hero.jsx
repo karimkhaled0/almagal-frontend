@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -12,6 +13,7 @@ const Hero = () => {
           alt="Picture of the hero"
           width={599}
           height={537}
+          priority
         />
       </div>
 
@@ -49,7 +51,7 @@ const Hero = () => {
 
         {/* Button */}
         <button className="lg:text-lg md:text-base text-[10px] font-medium lg:py-4 md:py-3 lg:px-8 md:px-4 py-2 px-2 bg-[#F86061] rounded-xl text-white">
-          للتواصل معنا
+          <Link href={"/#contact"}>تواصل معنا</Link>
         </button>
       </div>
     </div>

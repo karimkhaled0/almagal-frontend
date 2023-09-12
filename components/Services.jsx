@@ -4,7 +4,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="md:mt-44 mt-20 lg:space-y-10 md:space-y-5 space-y-3 mb-44">
+    <div className="md:my-44 my-20 lg:space-y-10 md:space-y-5 space-y-3">
       {/* what we serve */}
       <h1 className="text-[#F54748] lg:text-lg md:text-base text-xs font-medium text-center ">
         ماذا نقدم ؟

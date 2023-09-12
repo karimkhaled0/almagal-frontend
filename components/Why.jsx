@@ -13,9 +13,9 @@ const Why = () => {
           <h2 className="lg:text-lg md:text-base text-xs font-medium text-[#03A66B]">
             فريق محترف
           </h2>
-          <h1 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
+          <h2 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
             فريق متخصص في مكافحة الحشرات والقوارض
-          </h1>
+          </h2>
           <p className="lg:text-lg md:text-sm text-[8px] font-normal text-[#676767]">
             تعتمد شركة المجال على فريق من المحترفين المدربين تدريباً عالياً في
             مكافحة الحشرات، وهم ملتزمون بتقديم أفضل الحلول لعملائهم
@@ -43,9 +43,9 @@ const Why = () => {
           <h2 className="lg:text-lg md:text-base text-xs font-medium text-[#03A66B]">
             لماذا تختار المجال ؟
           </h2>
-          <h1 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
+          <h2 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
             تتمتع شركة المجال بخبرة عميقة في مجال مكافحة الحشرات
-          </h1>
+          </h2>
           <p className="lg:text-lg md:text-sm text-[8px] font-normal text-[#676767]">
             حيث قامت بتقديم خدماتها لسنوات عديدة مما يمنحها الكفاءة والمهارة في
             التعامل مع مختلف أنواع الحشرات والآفات
@@ -64,9 +64,9 @@ const Why = () => {
           <h2 className="lg:text-lg md:text-base text-xs font-medium text-[#03A66B]">
             مناطق وجودنا
           </h2>
-          <h1 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
+          <h2 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
             المجال لمكافحة الحشرات تتواجد في مناطق عديدة
-          </h1>
+          </h2>
           <p className="lg:text-lg md:text-sm text-[8px] font-normal text-[#676767]">
             الدمام - الخبر - الظهران - القطيف - سيهات - عنك
           </p>

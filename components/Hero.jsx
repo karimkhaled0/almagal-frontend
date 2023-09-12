@@ -37,7 +37,7 @@ const Hero = () => {
         {/* Head */}
         <div>
           <h1 className="xl:text-6xl lg:text-5xl md:text-2xl text-sm font-bold xl:w-[578px] lg:w-[500px] md:w-[300px] w-[200px] xl:leading-normal lg:leading-normal md:leading-normal">
-            شركة المجال في مكافحة الحشرات والافات والقوارض
+            شركة المجال للقضاء و مكافحة الحشرات في السعودية
           </h1>
         </div>
 

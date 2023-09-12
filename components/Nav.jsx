@@ -68,7 +68,7 @@ const Nav = () => {
       {/* Logo */}
       <div className="flex items-center lg:space-x-5 md:space-x-3 space-x-2 lg:w-[42px] md:w-[28px] w-[15px]">
         <Image src={"/logo.svg"} alt="logo" width={42} height={42} />
-        <h1 className="lg:text-2xl md:text-xl text-xs font-bold">المجال</h1>
+        <h2 className="lg:text-2xl md:text-xl text-xs font-bold">المجال</h2>
       </div>
     </div>
   );

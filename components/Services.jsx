@@ -6,14 +6,14 @@ const Services = () => {
   return (
     <div className="md:my-44 my-20 lg:space-y-10 md:space-y-5 space-y-3">
       {/* what we serve */}
-      <h1 className="text-[#F54748] lg:text-lg md:text-base text-xs font-medium text-center ">
+      <h2 className="text-[#F54748] lg:text-lg md:text-base text-xs font-medium text-center ">
         ماذا نقدم ؟
-      </h1>
+      </h2>
 
       {/* Header */}
-      <h1 className="font-bold lg:text-4xl md:text-2xl text-base leading-normal text-[#2E2E2E] text-center ">
+      <h2 className="font-bold lg:text-4xl md:text-2xl text-base leading-normal text-[#2E2E2E] text-center ">
         مكافحة جميع انواع الحشرات والقوارض
-      </h1>
+      </h2>
 
       {/* Services */}
       <div className="flex md:flex-row flex-col md:space-y-0 space-y-5 md:w-full w-44 mx-auto items-center justify-between relative">

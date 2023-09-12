@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="grid grid-cols-4 gap-x-10">
         {/* contact */}
         <div className="md:space-y-3 space-y-1">
-          <h1 className="md:text-lg text-[8px] font-semibold">للتواصل معنا</h1>
+          <h2 className="md:text-lg text-[8px] font-semibold">للتواصل معنا</h2>
           <div className="">
             <p className="lg:text-lg md:text-sm text-[6px]  font-normal text-[#676767] md:p-2 p-0">
               +
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         {/* places */}
         <div className="space-y-1">
-          <h1 className="md:text-lg text-[8px] font-semibold">مناطق وجودنا</h1>
+          <h2 className="md:text-lg text-[8px] font-semibold">مناطق وجودنا</h2>
           <div className="md:space-y-0 space-y-2">
             <p className="lg:text-lg md:text-sm text-[6px] font-normal text-[#676767] md:p-2 p-0">
               الدمام
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         {/* services */}
         <div className="space-y-1">
-          <h1 className="md:text-lg text-[8px] font-semibold">خدماتنا</h1>
+          <h2 className="md:text-lg text-[8px] font-semibold">خدماتنا</h2>
           <div className="md:space-y-0 space-y-2">
             <p className="lg:text-lg md:text-sm text-[6px]  font-normal text-[#676767] md:p-2 p-0">
               مكافحه النمل الاسود
@@ -128,9 +128,9 @@ const Footer = () => {
           <div className="flex items-center justify-center">
             <div className="flex items-center lg:space-x-5 md:space-x-3 space-x-2 lg:w-[42px] md:w-[28px] w-[15px]">
               <Image src={"/logo.svg"} alt="logo" width={42} height={42} />
-              <h1 className="lg:text-2xl md:text-xl text-xs font-bold">
+              <h2 className="lg:text-2xl md:text-xl text-xs font-bold">
                 المجال
-              </h1>
+              </h2>
             </div>
           </div>
           <p className="lg:text-base md:text-sm text-[6px] md:w-full w-20 font-normal text-[#676767] md:p-2 p-0">

@@ -21,10 +21,10 @@ const Contact = () => {
           <h2 className="lg:text-lg md:text-base text-xs font-medium text-[#F54748]">
             للتواصل معنا عبر الارقام التالية
           </h2>
-          <h1 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
+          <h2 className="lg:text-4xl md:text-2xl text-base font-bold lg:leading-normal md:leading-normal leading-normal">
             نحن هنا لمساعدتك والإجابة على استفساراتك، فلا تتردد في الاتصال بنا
             على أحد هذه الأرقام
-          </h1>
+          </h2>
           <div>
             <p className="lg:text-3xl md:text-xl text-lg  font-normal text-[#676767] p-2">
               +

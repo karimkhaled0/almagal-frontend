@@ -21,6 +21,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       cairo: ["Cairo", "sans-serif"],
+      rubik: ["Rubik", "sans-serif"],
     },
   },
   plugins: [],

@@ -27,21 +27,19 @@ const Contact = () => {
           </h2>
           <div>
             <p className="lg:text-3xl md:text-xl text-lg  font-normal text-[#676767] p-2">
-              +
               <a
                 href="https://api.whatsapp.com/send?phone=966549834554"
                 target="_blank"
               >
-                966549834554
+                0549834554
               </a>
             </p>
             <p className="lg:text-3xl md:text-xl text-lg font-normal text-[#676767] p-2">
-              +
               <a
                 href="https://api.whatsapp.com/send?phone=966508418853"
                 target="_blank"
               >
-                966508418853
+                0508418853
               </a>
             </p>
           </div>

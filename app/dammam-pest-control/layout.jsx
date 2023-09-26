@@ -4,11 +4,10 @@ import Hero from "../../components/Hero";
 import Nav from "../../components/Nav";
 
 export const metadata = {
-  title:
-    "مكافحة الحشرات في الدمام - دليل صيانة وخدمات المنزل بالمملكة العربية السعودية افضل شركات مكافحة الحشرات والنظافة العامة",
+  title: "المجال - افضل شركات مكافحة الحشرات في الدمام",
 
   description:
-    "شركة مكافحة حشرات بالدمام للقضاء علي جميع انواع الحشرات والقوارض باقل تكلفة وباستخدام مبيدات امنة مع شركة رش مبيدات بالدمام بيتك في امان خالي من الحشرات , اتصل الان 966508418853",
+    "شركة مكافحة حشرات بالدمام والخبر والقطيف والطائف وسيهات وعنك للقضاء علي جميع انواع الحشرات والقوارض باقل تكلفة وباستخدام مبيدات امنة مع شركة رش مبيدات بالدمام , اتصل الان 966508418853",
 
   icons: {
     icon: "/favicon.ico",
@@ -23,7 +22,7 @@ export const metadata = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "خدمات المجال - دليل صيانة وخدمات المنزل بالمملكة العربية السعودية افضل شركات مكافحة الحشرات والنظافة العامة",
-    image: "https://al-magal.com/logo.svg",
+    image: "https://www.al-magal.com/logo.svg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "شارع الأمير تركي بن عبدالعزيز",
@@ -35,17 +34,13 @@ export const metadata = {
     telephone: "966508418853",
   },
 
-  alternates: {
-    canonical: `https://al-magal.com/dammam-pest-control`,
-  },
-
   openGraph: {
     title:
       "مكافحة الحشرات في الدمام - دليل صيانة وخدمات المنزل بالمملكة العربية السعودية افضل شركات مكافحة الحشرات والنظافة العامة",
     description:
       "شركة مكافحة حشرات بالدمام للقضاء علي جميع انواع الحشرات والقوارض باقل تكلفة وباستخدام مبيدات امنة مع شركة رش مبيدات بالدمام بيتك في امان خالي من الحشرات , اتصل الان 966508418853",
 
-    url: "https://al-magal.com/dammam-pest-control",
+    url: "https://www.al-magal.com/dammam-pest-control",
     locale: "ar_SA",
   },
 

@@ -93,6 +93,7 @@ export const metadata = {
   },
 };
 
+// schemaMarkup is a JSON object
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
